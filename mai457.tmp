@@ -12,10 +12,3 @@ script = ExtResource("1_a8abb")
 
 [node name="Camera3D" parent="." instance=ExtResource("3_jg425")]
 transform = Transform3D(-2.8691e-14, -0.707107, 0.707107, 1.54269e-08, 0.707107, 0.707107, -1, 1.09085e-08, 1.09084e-08, 9, 3, 0)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20, 0)
-light_energy = 13.8
-light_indirect_energy = 10.6
-light_volumetric_fog_energy = 0.0
-omni_range = 56.0
